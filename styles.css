@@ -59,6 +59,7 @@ max-width: 100%;
 }
 #main {
   justify-content: space-evenly;
+  align-items: center;
   margin:0;
   min-height: 100vh;
   width: 100%;
@@ -100,7 +101,13 @@ max-width: 100%;
 
   }
 
+  .portret{
 
+    padding-right: 12px;
+    
+    
+    
+    }
 
 
 
