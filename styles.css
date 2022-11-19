@@ -43,7 +43,10 @@ header {
   background-color: blue;
   
 }
-.contact>h2,p,h5{
+.contact p{
+  color: rgb(255, 255, 255);
+}
+.contact h2{
   color: rgb(255, 255, 255);
 }
 .footer {
