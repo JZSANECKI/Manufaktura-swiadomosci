@@ -6,7 +6,7 @@ window.addEventListener('scroll', function () {
   heroimg.style.top = 0 - value *0.2+ 'px';
   heroimgcloud.style.top = 0 - value * 0.1 + 'px';
   
-  main.style.top =  wysokosc - value  + 'px';
+  main.style.top =  wysokosc - (0.8 * value)  + 'px';
 
  
 });
