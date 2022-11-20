@@ -17,11 +17,11 @@ window.addEventListener('scroll', function () {
   if (navWys < 3) {
     navbar.style.background = 'rgba(255,255,255,0.9)';
     navbar.classList.add("shadow");
-    navlinkA[0].style.color = 'red';
-    navlinkA[1].style.color = 'red';
-    navlinkA[2].style.color = 'red';
-    navlinkA[3].style.color = 'red';
-    navlinkA[4].style.color = 'red';
+    navlinkA[0].style.color = 'black';
+    navlinkA[1].style.color = 'black';
+    navlinkA[2].style.color = 'black';
+    navlinkA[3].style.color = 'black';
+    navlinkA[4].style.color = 'black';
     
     console.log('ciemny nav');
   } else {
