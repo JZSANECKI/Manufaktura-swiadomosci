@@ -2,7 +2,7 @@ let wysokosc = window.innerHeight;
 let szerokosc = window.innerWidth;
 let divElement = document.querySelector('.main');
 let elemHeight = divElement.clientHeight;
-let navbarA = document.getElementsByClassName('nav-link');
+let navlinkA = document.getElementsByClassName('nav-link');
 
 window.addEventListener('scroll', function () {
   let value = window.scrollY;
@@ -17,13 +17,13 @@ window.addEventListener('scroll', function () {
   if (navWys < 3) {
     navbar.style.background = 'rgba(255,255,255,0.9)';
     navbar.classList.add("shadow");
-    navbarA[0].style.color = 'black';
+    navlinkA[0].style.color = 'red';
     
     console.log('ciemny nav');
   } else {
     navbar.style.background = 'rgba(255,255,255,0.3)';
     navbar.classList.remove("shadow");
-    navbarA[0].style.color = 'white';
+    navlinkA[0].style.color = 'white';
     console.log('biały nav');
     
   }
