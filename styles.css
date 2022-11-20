@@ -63,7 +63,7 @@ transition: 300ms;
 background-color: rgba(255,255,255,0.3);
 }
 .navbar a{
-  color:dark;
+  color:white;
   text-transform: uppercase;
 }
 .navbar i{
