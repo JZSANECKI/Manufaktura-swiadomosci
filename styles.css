@@ -11,13 +11,14 @@ body {
 }
 h2 {
   color: rgb(66, 92, 105);
-  font-size: 3vw;
+  font-size: 4vw;
 }
 h5 {
   color: gray;
 }
 p {
   color: gray;
+  margin: 0;
 }
 header {
   overflow: hidden;
@@ -38,15 +39,17 @@ header {
   margin-right: auto;
 }
 .contact {
+  position: relative;
   min-height: 40vh;
-  background-image: url(https://cdn.pixabay.com/photo/2016/02/07/21/03/computer-1185626_960_720.jpg);
+  background-image: url(//unsplash.it/1024/600);
+  
   background-size: cover;
   align-items: center;
   justify-content: center;
+  z-index: 0;
 }
 .contact h5 {
   color: rgb(255, 255, 255);
-  
 }
 .contact h2 {
   color: rgb(255, 255, 255);
@@ -54,8 +57,20 @@ header {
 .footer {
   height: 6vh;
 }
-#breakespace {
-  
+.navbar{
+z-index: 20;
+transition: 300ms;
+background-color: rgba(255,255,255,0.3);
+}
+.navbar a{
+  color:dark;
+}
+.navbar i{
+  font-size: 1.5em;
+  color: dark;
+}
+#navbar{
+ 
 }
 #heroimg {
   position: absolute;
@@ -96,7 +111,6 @@ header {
   top: 100%;
   background-color: rgb(255, 255, 255);
   z-index: 2;
-
 }
 #content {
   width: 100%;
@@ -116,69 +130,52 @@ header {
   opacity: 0.5;
   background-color: rgb(3, 33, 51);
 }
-.button-57 {
-  position: relative;
-  overflow: hidden;
+.matte {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  opacity: 0.5;
+  background-color: rgb(3, 33, 51);
+  z-index: -3;
+}
+.button-b {
   border: 1px solid #18181a;
-  color: #18181a;
-  display: inline-block;
-  font-size: 15px;
-  line-height: 15px;
-  padding: 18px 18px 17px;
+  color: gray;
+  padding: 10px 20px;
   text-decoration: none;
   cursor: pointer;
   background: #fff;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
+  transition:300ms
 }
 
-.button-57 span:first-child {
-  position: relative;
-  transition: color 600ms cubic-bezier(0.48, 0, 0.12, 1);
-  z-index: 10;
+.button-b:hover {
+  border: 1px solid lightgray;
+  
+  padding: 10px 40px;
+  text-decoration: none;
+  cursor: pointer;
+ 
 }
-
-.button-57 span:last-child {
+.button-w {
+  border: 1px solid white;
   color: white;
-  display: block;
-  position: absolute;
-  bottom: 0;
-  transition: all 500ms cubic-bezier(0.48, 0, 0.12, 1);
-  z-index: 100;
-  opacity: 0;
-  top: 50%;
-  left: 50%;
-  transform: translateY(225%) translateX(-50%);
-  height: 14px;
-  line-height: 13px;
+  padding: 10px 20px;
+  text-decoration: none;
+  cursor: pointer;
+  background: rgba(0, 0, 0,0);
+  transition:300ms
 }
 
-.button-57:after {
-  content: '';
-  position: absolute;
-  bottom: -50%;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: 0;
-  background-color: rgb(0, 0, 0);
-  transform-origin: bottom center;
-  transition: transform 600ms cubic-bezier(0.48, 0, 0.12, 1);
-  transform: skewY(9.3deg) scaleY(0);
-  z-index: 50;
+.button-w:hover {
+  
+  background: rgba(255, 255,255,0.2);
+  padding: 10px 40px;
+  text-decoration: none;
+  cursor: pointer;
+ 
 }
 
-.button-57:hover:after {
-  transform-origin: bottom center;
-  transform: skewY(9.3deg) scaleY(2);
-}
-
-.button-57:hover span:last-child {
-  transform: translateX(-50%) translateY(-100%);
-  opacity: 1;
-  transition: all 900ms cubic-bezier(0.48, 0, 0.12, 1);
-}
 
 /* rozmiar LG */
 @media only screen and (max-width: 992px) {
@@ -204,20 +201,17 @@ header {
   .container {
   }
   .portret {
-  padding-right: 0px;
+    padding-right: 0px;
     padding-bottom: 40px;
-  
   }
+}
 
-  /* rozmiar SM */
-  @media only screen and (max-width: 576px) {
-    p{
-      
-    }
-    .portret {
-      padding-right: 0px;
-        padding-bottom: 10px;
-      
-      }
+/* rozmiar SM */
+@media only screen and (max-width: 576px) {
+  .footer p {
+    font-size: 0.9em;
+  }
+  .portret {
+    padding-right: 0px;
   }
 }
