@@ -62,13 +62,16 @@ z-index: 20;
 transition: 300ms;
 background-color: rgba(255,255,255,0.3);
 }
+.nav-link{
+  color: white;
+}
 .navbar a{
-  color:white;
+  
   text-transform: uppercase;
 }
 .navbar i{
   font-size: 1.5em;
-  color: dark;
+ 
 }
 .bi{
   color: white;
