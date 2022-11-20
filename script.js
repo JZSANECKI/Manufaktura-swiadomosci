@@ -35,7 +35,7 @@ window.addEventListener('scroll', function () {
     
     console.log('ciemny nav');
   } else {
-    navbar.style.background = 'rgba(255,255,255,0.3)';
+    navbar.style.background = 'rgba(255,255,255,0.2)';
     navbar.classList.remove("shadow");
     navlinkA[0].style.color = 'white';
     navlinkA[0].onmouseover = function(){navlinkA[0].style.color = 'lightgray'};
