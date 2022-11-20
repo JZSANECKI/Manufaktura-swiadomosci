@@ -18,12 +18,20 @@ window.addEventListener('scroll', function () {
     navbar.style.background = 'rgba(255,255,255,0.9)';
     navbar.classList.add("shadow");
     navlinkA[0].style.color = 'red';
+    navlinkA[1].style.color = 'red';
+    navlinkA[2].style.color = 'red';
+    navlinkA[3].style.color = 'red';
+    navlinkA[4].style.color = 'red';
     
     console.log('ciemny nav');
   } else {
     navbar.style.background = 'rgba(255,255,255,0.3)';
     navbar.classList.remove("shadow");
     navlinkA[0].style.color = 'white';
+    navlinkA[1].style.color = 'white';
+    navlinkA[2].style.color = 'white';
+    navlinkA[3].style.color = 'white';
+    navlinkA[4].style.color = 'white';
     console.log('biały nav');
     
   }
