@@ -18,10 +18,20 @@ window.addEventListener('scroll', function () {
     navbar.style.background = 'rgba(255,255,255,0.9)';
     navbar.classList.add("shadow");
     navlinkA[0].style.color = 'black';
+    navlinkA[0].onmouseover = function(){navlinkA[0].style.color = 'gray'};
+    navlinkA[0].onmouseout = function(){navlinkA[0].style.color = 'black'};
     navlinkA[1].style.color = 'black';
+    navlinkA[1].onmouseover = function(){navlinkA[1].style.color = 'gray'};
+    navlinkA[1].onmouseout = function(){navlinkA[1].style.color = 'black'};
     navlinkA[2].style.color = 'black';
+    navlinkA[2].onmouseover = function(){navlinkA[2].style.color = 'gray'};
+    navlinkA[2].onmouseout = function(){navlinkA[2].style.color = 'black'};
     navlinkA[3].style.color = 'black';
+    navlinkA[3].onmouseover = function(){navlinkA[3].style.color = 'gray'};
+    navlinkA[3].onmouseout = function(){navlinkA[3].style.color = 'black'};
     navlinkA[4].style.color = 'black';
+    navlinkA[4].onmouseover = function(){navlinkA[4].style.color = 'gray'};
+    navlinkA[4].onmouseout = function(){navlinkA[4].style.color = 'black'};
     
     console.log('ciemny nav');
   } else {
