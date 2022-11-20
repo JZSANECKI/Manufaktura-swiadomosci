@@ -64,13 +64,14 @@ background-color: rgba(255,255,255,0.3);
 }
 .navbar a{
   color:dark;
+  text-transform: uppercase;
 }
 .navbar i{
   font-size: 1.5em;
   color: dark;
 }
-#navbar{
- 
+.bi{
+  color: white;
 }
 #heroimg {
   position: absolute;
