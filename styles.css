@@ -81,17 +81,29 @@ background-color: rgba(255,255,255,0.3);
 }
 #quotes{
   position: absolute;
-  min-height: 40vh;
+  
   width: 70vw;
-  top: 20%;
+  top: 30%;
   left: 15%;
   margin: 0;
-  background-color: rgba(0,0,0,0.5);
+  
+}
+.quote{
+  
 }
 .quote h2{
 color: white;
 font-size: 3em;
 
+}
+.quote h5{
+color: white;
+
+
+}
+.quote-line{
+  height: 1px;
+  background-color: white;
 }
 #heroimg {
   position: absolute;
