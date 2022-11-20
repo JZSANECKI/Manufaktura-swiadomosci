@@ -38,10 +38,20 @@ window.addEventListener('scroll', function () {
     navbar.style.background = 'rgba(255,255,255,0.3)';
     navbar.classList.remove("shadow");
     navlinkA[0].style.color = 'white';
+    navlinkA[0].onmouseover = function(){navlinkA[0].style.color = 'lightgray'};
+    navlinkA[0].onmouseout = function(){navlinkA[0].style.color = 'white'};
     navlinkA[1].style.color = 'white';
+    navlinkA[1].onmouseover = function(){navlinkA[1].style.color = 'lightgray'};
+    navlinkA[1].onmouseout = function(){navlinkA[1].style.color = 'white'};
     navlinkA[2].style.color = 'white';
+    navlinkA[2].onmouseover = function(){navlinkA[2].style.color = 'lightgray'};
+    navlinkA[2].onmouseout = function(){navlinkA[2].style.color = 'white'};
     navlinkA[3].style.color = 'white';
+    navlinkA[3].onmouseover = function(){navlinkA[3].style.color = 'lightgray'};
+    navlinkA[3].onmouseout = function(){navlinkA[3].style.color = 'white'};
     navlinkA[4].style.color = 'white';
+    navlinkA[4].onmouseover = function(){navlinkA[4].style.color = 'lightgray'};
+    navlinkA[4].onmouseout = function(){navlinkA[4].style.color = 'white'};
     console.log('biały nav');
     
   }
