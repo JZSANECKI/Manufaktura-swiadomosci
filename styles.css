@@ -37,10 +37,11 @@ opacity: 0.5;
 }
 .logo{
 width: 230px;
-height: 100px;
+height: 60px;
 transition: 500ms;
 background-image: url(http://serwer2223309.home.pl/paralax/img/logoMSbiale.svg); 
 background-size: contain;
+background-repeat: no-repeat;
 
 }
 header {
@@ -269,11 +270,7 @@ top: 40%;
     color: white;
     font-size: 3em;
   }
-  .logo{
-    width: 138px;
-    height: 60px;
-    
-    }
+  
 }
 /* rozmiar MD */
 @media only screen and (max-width: 768px) {
