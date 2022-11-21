@@ -21,9 +21,16 @@ p {
   margin: 0;
   font-size: 1.5em;
 }
+.title h1{
+  position: absolute;
+  font-size: 6vw;
+  color: white;
+  z-index: 0;
+  top: 10%;
+}
 .bi-chevron-compact-down{
   position: absolute;
-bottom: -3%;
+bottom: -40px;
 font-size: 5em;
 opacity: 0.5;
 }
@@ -65,7 +72,7 @@ header {
   height: 6vh;
 }
 .navbar {
-  height: 6vh;
+ 
   z-index: 20;
   transition: 500ms;
   background-color: rgba(255, 255, 255, 0.2);
@@ -87,7 +94,7 @@ header {
 }
 #button-warsztaty {
   position: absolute;
-  bottom: 20%;
+  bottom: 10%;
 }
 #button-warsztaty p {
 color: white;
@@ -235,6 +242,9 @@ top: 40%;
     color: rgb(66, 92, 105);
     font-size: 4vw;
   }
+  #quotes {
+    top:30%;
+    }
 }
 /* rozmiar LG */
 @media only screen and (max-width: 992px) {
@@ -245,9 +255,7 @@ top: 40%;
   .portret {
     padding-right: 12px;
   }
-  #quotes {
-  
-  }
+ 
   .quote h2 {
     color: white;
     font-size: 3em;
@@ -288,6 +296,10 @@ top: 40%;
 
   .quote h5 {
     color: white;
+   
+  }
+  .quote h2{
+    font-size: 2em;
   }
   .quote-line {
     height: 1px;
