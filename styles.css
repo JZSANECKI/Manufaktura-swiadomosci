@@ -6,6 +6,7 @@
 }
 
 body {
+  
   margin: 0;
   font-family: system-ui, sans-serif;
 }
@@ -117,7 +118,7 @@ header {
 color: white;
 }
 #quotes {
-  
+filter: blur(0px);
 width:100%;
  
 position: absolute;
