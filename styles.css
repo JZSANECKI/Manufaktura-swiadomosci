@@ -88,6 +88,10 @@ font-size: 1em;
 #event-details a:hover{
   color: rgb(171, 178, 185);
 }
+.border-right{
+  border-right: solid; 
+  border-color: rgb(31, 97, 141);
+}
 .portret {
   max-width: 100%;
   max-height: 70vh;
@@ -357,5 +361,9 @@ top: 40%;
   .quote-line {
     height: 1px;
     background-color: white;
+  }
+  .border-right{
+    border-right:hidden;
+    
   }
 }
