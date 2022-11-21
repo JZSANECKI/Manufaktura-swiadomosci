@@ -66,8 +66,7 @@ header {
 .contact {
   position: relative;
   min-height: 40vh;
-  background-image: url(//unsplash.it/1024/600);
-
+   background-image: url(//unsplash.it/1024/600);
   background-size: cover;
   align-items: center;
   justify-content: center;
