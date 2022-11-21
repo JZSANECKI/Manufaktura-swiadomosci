@@ -106,7 +106,7 @@ top: 40%;
 }
 .quote h2 {
   color: white;
-  font-size: 4em;
+  font-size: 5em;
 }
 .quote h5 {
   color: white;
@@ -229,7 +229,7 @@ top: 40%;
   }
   .quote h2 {
     color: white;
-    font-size: 3em;
+    font-size: 5vw;
   }
   h2 {
     color: rgb(66, 92, 105);
@@ -247,6 +247,10 @@ top: 40%;
   }
   #quotes {
   
+  }
+  .quote h2 {
+    color: white;
+    font-size: 3em;
   }
 }
 /* rozmiar MD */
@@ -281,10 +285,7 @@ top: 40%;
   }
   .quote {
   }
-  .quote h2 {
-    color: white;
-    font-size: 2em;
-  }
+
   .quote h5 {
     color: white;
   }
