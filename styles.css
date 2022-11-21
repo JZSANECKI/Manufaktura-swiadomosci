@@ -80,7 +80,7 @@ header {
   color: rgb(255, 255, 255);
 }
 .footer {
-  height: 6vh;
+  min-height: 6vh;
 }
 .navbar {
  
