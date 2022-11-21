@@ -11,11 +11,11 @@ body {
   font-family: system-ui, sans-serif;
 }
 h2 {
-  color: rgb(66, 92, 105);
+  color: rgb(31, 97, 141);
   font-size: 4em;
 }
 h5 {
-  color: gray;
+  color: rgb(31, 97, 141);
 }
 p {
   color: gray;
@@ -65,6 +65,9 @@ header {
 
   background-size: cover;
   background-position: bottom center;
+}
+.calendar-date .month{
+  font-size: 3em;
 }
 .portret {
   max-width: 100%;
@@ -263,7 +266,7 @@ top: 40%;
     font-size: 5vw;
   }
   h2 {
-    color: rgb(66, 92, 105);
+    
     font-size: 4vw;
   }
   #quotes {
