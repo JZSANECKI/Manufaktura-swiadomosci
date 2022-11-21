@@ -28,19 +28,17 @@ p {
   z-index: 0;
   top: 10%;
 }
-.logo{
- 
-  
-}
+
 .bi-chevron-compact-down{
   position: absolute;
 bottom: -40px;
 font-size: 5em;
 opacity: 0.5;
 }
-.navbar-brand{
+.logo{
 width: 230px;
 height: 100px;
+transition: 500ms;
 background-image: url(http://serwer2223309.home.pl/paralax/img/logoMSbiale.svg); 
 background-size: contain;
 

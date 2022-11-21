@@ -1,6 +1,7 @@
 let wysokosc = window.innerHeight;
 let szerokosc = window.innerWidth;
 let divElement = document.querySelector('.main');
+let logo = document.querySelector('.logo');
 let elemHeight = divElement.clientHeight;
 let navlinkA = document.getElementsByClassName('nav-link');
 
@@ -33,6 +34,7 @@ window.addEventListener('scroll', function () {
     navlinkA[4].onmouseover = function(){navlinkA[4].style.color = 'gray'};
     navlinkA[4].onmouseout = function(){navlinkA[4].style.color = 'black'};
     
+    logo.style.backgroundImage =  'url(http://serwer2223309.home.pl/paralax/img/logoMSczarne.svg)';
     console.log('ciemny nav');
   } else {
     navbar.style.background = 'rgba(255,255,255,0.2)';
@@ -52,6 +54,8 @@ window.addEventListener('scroll', function () {
     navlinkA[4].style.color = 'white';
     navlinkA[4].onmouseover = function(){navlinkA[4].style.color = 'lightgray'};
     navlinkA[4].onmouseout = function(){navlinkA[4].style.color = 'white'};
+
+    logo.style.backgroundImage =  'url(http://serwer2223309.home.pl/paralax/img/logoMSbiale.svg)';
     console.log('biały nav');
     
   }
