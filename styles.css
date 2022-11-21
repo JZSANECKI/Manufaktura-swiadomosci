@@ -202,7 +202,9 @@ color: white;
   background: rgba(0, 0, 0, 0);
   transition: 300ms;
 }
-
+.button-w p{
+  color: white;
+}
 .button-w:hover {
   background: rgba(255, 255, 255, 0.2);
   padding: 10px 40px;
