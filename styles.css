@@ -37,7 +37,7 @@ font-size: 5em;
 opacity: 0.5;
 }
 .logo{
-width: 230px;
+width: 130px;
 height: 60px;
 transition: 500ms;
 background-image: url(http://serwer2223309.home.pl/paralax/img/logoMSbiale.svg); 
@@ -271,7 +271,7 @@ top: 40%;
   }
 
   .portret {
-    padding-right: 12px;
+    padding-right: 0px;
   }
  
   .quote h2 {
@@ -299,7 +299,7 @@ top: 40%;
   }
   .portret {
     padding-right: 0px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
   }
   
 
