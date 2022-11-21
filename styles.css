@@ -29,7 +29,9 @@ p {
   z-index: 0;
   top: 10%;
 }
-
+.nav-black{
+  background-color: black;
+}
 .bi-chevron-compact-down{
   position: absolute;
 bottom: -40px;
