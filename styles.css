@@ -237,6 +237,9 @@ top: 40%;
   .portret {
     padding-right: 12px;
   }
+  #quotes {
+  
+  }
 }
 /* rozmiar MD */
 @media only screen and (max-width: 768px) {
