@@ -88,6 +88,10 @@ font-size: 1em;
 #event-details a:hover{
   color: rgb(171, 178, 185);
 }
+.event-short{
+text-align: justify;
+
+}
 .border-right{
   border-right: solid; 
   border-color: rgb(31, 97, 141);
