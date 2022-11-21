@@ -66,8 +66,15 @@ header {
   background-size: cover;
   background-position: bottom center;
 }
+.calendar-date{
+  border-right: solid;
+  border-color:rgb(31, 97, 141);
+}
 .calendar-date .month{
   font-size: 3em;
+}
+#event-details h3{
+font-weight:bold;
 }
 .portret {
   max-width: 100%;
