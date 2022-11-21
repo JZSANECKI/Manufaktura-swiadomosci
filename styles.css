@@ -28,11 +28,20 @@ p {
   z-index: 0;
   top: 10%;
 }
+.logo{
+  height: 100%;
+  
+}
 .bi-chevron-compact-down{
   position: absolute;
 bottom: -40px;
 font-size: 5em;
 opacity: 0.5;
+}
+.navbar-brand{
+width: 230px;
+height: 100px;
+
 }
 header {
   overflow: hidden;
@@ -278,6 +287,11 @@ top: 40%;
     padding-right: 0px;
     padding-bottom: 40px;
   }
+  .navbar-brand{
+    
+    height: 60px;
+    
+    }
 }
 
 /* rozmiar SM */
