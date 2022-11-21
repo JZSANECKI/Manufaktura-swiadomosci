@@ -10,6 +10,10 @@ body {
   margin: 0;
   font-family: system-ui, sans-serif;
 }
+h1{
+  color: rgb(31, 97, 141);
+  font-size: 7vw;
+}
 h2 {
   color: rgb(31, 97, 141);
   font-size: 4em;
@@ -50,21 +54,11 @@ background-repeat: no-repeat;
 header {
   overflow: hidden;
 }
-.bg-head {
-  height: 100vh;
-  width: 100%;
-  background-image: url(http://serwer2223309.home.pl/paralax/img/bg.jpg);
 
-  background-size: cover;
-  background-position: bottom center;
-}
 .bg-head-calendar {
-  height: 50vh;
+ padding-top: 100px;
+ padding-bottom: 30px;
   width: 100%;
-  background-image: url(//unsplash.it/2000/600);
-
-  background-size: cover;
-  background-position: bottom center;
 }
 .calendar-date{
   border-right: solid;
