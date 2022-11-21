@@ -92,6 +92,7 @@ font-size: 1em;
 text-align: justify;
 
 }
+
 .border-right{
   border-right: solid; 
   border-color: rgb(31, 97, 141);
@@ -318,6 +319,13 @@ top: 40%;
     .navbar-collapse{
       margin-top: 20px;
     }
+    .event-block{
+      border-bottom: solid;
+      border-color: rgb(31, 97, 141);
+      border-width: 1px;
+      
+    }
+   
    
 }
 /* rozmiar MD */
@@ -370,4 +378,5 @@ top: 40%;
     border-right:hidden;
     
   }
+
 }
