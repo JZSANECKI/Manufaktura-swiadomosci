@@ -1,0 +1,382 @@
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  
+  margin: 0;
+  font-family: system-ui, sans-serif;
+}
+h2 {
+  color: rgb(31, 97, 141);
+  font-size: 4em;
+}
+h5 {
+  color: rgb(31, 97, 141);
+}
+p {
+  color: gray;
+  margin: 0;
+  font-size: 1.5em;
+}
+.title h1{
+  position: absolute;
+  font-size: 6vw;
+  color: white;
+  z-index: 0;
+  top: 10%;
+}
+.nav-black{
+  background-color: black;
+}
+.bi-chevron-compact-down{
+  position: absolute;
+bottom: -40px;
+font-size: 5em;
+opacity: 0.5;
+}
+.logo{
+width: 130px;
+height: 60px;
+transition: 500ms;
+background-image: url(http://serwer2223309.home.pl/paralax/img/logoMSbiale.svg); 
+background-size: contain;
+background-repeat: no-repeat;
+
+}
+header {
+  overflow: hidden;
+}
+.bg-head {
+  height: 100vh;
+  width: 100%;
+  background-image: url(http://serwer2223309.home.pl/paralax/img/bg.jpg);
+
+  background-size: cover;
+  background-position: bottom center;
+}
+.bg-head-calendar {
+  height: 50vh;
+  width: 100%;
+  background-image: url(//unsplash.it/2000/600);
+
+  background-size: cover;
+  background-position: bottom center;
+}
+.calendar-date{
+  border-right: solid;
+  border-color:rgb(31, 97, 141);
+}
+.calendar-date .month{
+  font-size: 3em;
+}
+#event-details h3{
+font-weight:bold;
+}
+#event-details h5{
+font-size: 1em;
+}
+#event-details p a{
+  text-decoration: none;
+  font-weight: bold; 
+  color: rgb(31, 97, 141);
+  transition: 300ms;
+}
+#event-details a:hover{
+  color: rgb(171, 178, 185);
+}
+.event-short{
+text-align: justify;
+
+}
+
+.border-right{
+  border-right: solid; 
+  border-color: rgb(31, 97, 141);
+}
+.portret {
+  max-width: 100%;
+  max-height: 70vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contact {
+  position: relative;
+  min-height: 40vh;
+   background-image: url(//unsplash.it/2000/600);
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+}
+.contact h5 {
+  color: rgb(255, 255, 255);
+}
+.contact h2 {
+  color: rgb(255, 255, 255);
+}
+.footer {
+  min-height: 6vh;
+}
+.navbar {
+ 
+  z-index: 20;
+  transition: 500ms;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.nav-link {
+  color: white;
+}
+.nav-link:hover {
+  color: lightgray;
+}
+.navbar a {
+  text-transform: uppercase;
+}
+.navbar i {
+  font-size: 1.5em;
+}
+
+/* likwiduje obramowanie hamburgera*/
+.navbar-toggler:focus,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+}
+.bi {
+  color: white;
+}
+#button-warsztaty {
+  position: absolute;
+  bottom: 10%;
+}
+#button-warsztaty p {
+color: white;
+}
+#quotes {
+filter: blur(0px);
+width:100%;
+ 
+position: absolute;
+top: 40%;
+  margin: 0;
+  z-index: 0;
+}
+.quote {
+
+}
+.quote h2 {
+  color: white;
+  font-size: 5em;
+}
+.quote h5 {
+  color: white;
+}
+.quote-line {
+  height: 1px;
+  background-color: white;
+}
+.main-container {
+  max-width: 1800px;
+}
+#heroimg {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  left: 0;
+  background-image: url(http://serwer2223309.home.pl/paralax/img/osoba.png);
+  background-size: cover;
+  background-position: bottom center;
+}
+#heroimgcloud {
+  opacity: 0.8;
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  left: 0;
+  background-image: url(http://serwer2223309.home.pl/paralax/img/chmury.png);
+  background-size: cover;
+  background-position: bottom center;
+}
+
+#main {
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+ 
+  width: 100%;
+  position: absolute;
+  top: 100%;
+  background-color: rgb(255, 255, 255);
+  z-index: 2;
+}
+#content {
+  width: 100%;
+
+  background-color: rgb(255, 255, 255);
+  z-index: 0;
+}
+
+#matte {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  opacity: 0.5;
+  background-color: rgb(3, 33, 51);
+}
+.matte {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  opacity: 0.5;
+  background-color: rgb(3, 33, 51);
+  z-index: -3;
+}
+#matte-2 {
+  height: 50vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  opacity: 0.5;
+  background-color: rgb(3, 33, 51);
+  
+}
+.button-b {
+  border: 1px solid #18181a;
+  color: gray;
+  padding: 10px 20px;
+  text-decoration: none;
+  cursor: pointer;
+  background: #fff;
+  transition: 300ms;
+}
+
+.button-b:hover {
+  border: 1px solid lightgray;
+
+  padding: 10px 40px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.button-w {
+  border: 1px solid white;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0);
+  transition: 300ms;
+}
+.button-w p{
+  color: white;
+}
+.button-w:hover {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 10px 40px;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* rozmiar XXL */
+@media only screen and (max-width: 1600px) {
+  p {
+    color: gray;
+    margin: 0;
+    font-size: 1em;
+  }
+  .quote h2 {
+    color: white;
+    font-size: 5vw;
+  }
+  h2 {
+    
+    font-size: 4vw;
+  }
+  #quotes {
+    top:30%;
+    }
+}
+/* rozmiar LG */
+@media only screen and (max-width: 992px) {
+  #main {
+    justify-content: center;
+  }
+
+  .portret {
+    padding-right: 0px;
+  }
+ 
+  .quote h2 {
+    color: white;
+    font-size: 3em;
+  }
+ 
+    .navbar-collapse{
+      margin-top: 20px;
+    }
+    .event-block{
+      border-bottom: solid;
+      border-color: rgb(31, 97, 141);
+      border-width: 1px;
+      
+    }
+   
+   
+}
+/* rozmiar MD */
+@media only screen and (max-width: 768px) {
+  h2 {
+    font-size: 6vw;
+  }
+  #main {
+    min-height: 120vh;
+  }
+  .breakespace {
+    height: 30vh;
+  }
+  .container {
+  }
+  .portret {
+    padding-right: 0px;
+    padding-bottom: 20px;
+  }
+  
+
+}
+
+/* rozmiar SM */
+@media only screen and (max-width: 576px) {
+  .footer p {
+    font-size: 0.9em;
+  }
+  .portret {
+    padding-right: 0px;
+  }
+  #quotes {
+  
+  }
+  .quote {
+  }
+
+  .quote h5 {
+    color: white;
+   
+  }
+  .quote h2{
+    font-size: 2em;
+  }
+  .quote-line {
+    height: 1px;
+    background-color: white;
+  }
+  .border-right{
+    border-right:hidden;
+    
+  }
+
+}
