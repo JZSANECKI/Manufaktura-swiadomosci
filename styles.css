@@ -86,12 +86,13 @@ header {
 color: white;
 }
 #quotes {
-  position: absolute;
-
-  width: 70vw;
-  top: 30%;
-  left: 15%;
+  
+width:100vw;
+ 
+position: absolute;
+top: 40%;
   margin: 0;
+  z-index: 0;
 }
 .quote {
 }
@@ -265,12 +266,7 @@ color: white;
     padding-right: 0px;
   }
   #quotes {
-    position: absolute;
-
-    width: 100vw;
-    top: 20%;
-    left: 0;
-    margin: 0;
+  
   }
   .quote {
   }
