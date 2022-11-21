@@ -82,6 +82,9 @@ header {
   position: absolute;
   bottom: 20%;
 }
+#button-warsztaty p {
+color: white;
+}
 #quotes {
   position: absolute;
 
