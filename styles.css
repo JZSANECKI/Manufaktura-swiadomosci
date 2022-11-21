@@ -76,6 +76,15 @@ header {
 #event-details h3{
 font-weight:bold;
 }
+#event-details p a{
+  text-decoration: none;
+  font-weight: bold; 
+  color: rgb(31, 97, 141);
+  transition: 300ms;
+}
+#event-details a:hover{
+  color: rgb(171, 178, 185);
+}
 .portret {
   max-width: 100%;
   max-height: 70vh;
