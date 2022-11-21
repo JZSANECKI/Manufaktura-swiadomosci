@@ -14,7 +14,7 @@ window.addEventListener('scroll', function () {
 
   main.style.top = wysokosc - (elemHeight / wysokosc) * value + 'px';
   // breakespace.style.height = wysokosc - elemHeight + 'px';
-  console.log(navlinkB);
+  
   
   if (navWys < 3) {
     navbar.style.background = 'rgba(255,255,255,0.9)';
