@@ -42,7 +42,7 @@ opacity: 0.5;
 width: 130px;
 height: 60px;
 transition: 500ms;
-background-image: url(http://serwer2223309.home.pl/paralax/img/logoMSbiale.svg); 
+background-image: url(http://serwer2223309.home.pl/paralax/img/logoMSczarne.svg); 
 background-size: contain;
 background-repeat: no-repeat;
 
@@ -129,7 +129,7 @@ text-align: justify;
   background-color: rgb(255, 255, 255);
 }
 .nav-link {
-  color: white;
+  color: black;
 }
 .nav-link:hover {
   color: lightgray;
@@ -148,7 +148,7 @@ text-align: justify;
   box-shadow: none;
 }
 .bi {
-  color: white;
+  color: black;
 }
 #button-warsztaty {
   position: absolute;
