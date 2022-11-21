@@ -252,4 +252,30 @@ color: white;
   .portret {
     padding-right: 0px;
   }
+  #quotes{
+    position: absolute;
+    
+    width: 100vw;
+    top: 20%;
+    left: 0;
+    margin: 0;
+    
+  }
+  .quote{
+  
+  }
+  .quote h2{
+  color: white;
+  font-size: 2em;
+  
+  }
+  .quote h5{
+  color: white;
+  
+  
+  }
+  .quote-line{
+    height: 1px;
+    background-color: white;
+  }
 }
