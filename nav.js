@@ -1,8 +1,6 @@
 let wysokosc = window.innerHeight;
 let szerokosc = window.innerWidth;
-
 let logo = document.querySelector('.logo');
-
 let navlinkA = document.getElementsByClassName('nav-link');
 
 
@@ -14,8 +12,6 @@ window.addEventListener('scroll', function () {
   
   if (navWys < 3) {
     navbar.style.background = 'rgba(255,255,255,0.9)';
-    
-    // navbar.classList.add("shadow");
     navlinkA[0].style.color = 'black';
     navlinkA[0].onmouseover = function(){navlinkA[0].style.color = 'gray'};
     navlinkA[0].onmouseout = function(){navlinkA[0].style.color = 'black'};
@@ -40,8 +36,7 @@ window.addEventListener('scroll', function () {
     console.log('ciemny nav');
   } else {
     navbar.style.background = 'rgba(255,255,255,0.2)';
-    // navbar.classList.remove("shadow");
-    
+
     navbarNavAltMarkup.style.backgroundColor = 'rbga(0.0.0.0.8)';
     navlinkA[0].style.color = 'white';
     navlinkA[0].onmouseover = function(){navlinkA[0].style.color = 'lightgray'};
