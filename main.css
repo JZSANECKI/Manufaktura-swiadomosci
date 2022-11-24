@@ -306,6 +306,9 @@ top: 40%;
 }
 /* rozmiar LG */
 @media only screen and (max-width: 992px) {
+  .navbar{
+    backdrop-filter: blur(10px);
+  }
   #main {
     justify-content: center;
   }
