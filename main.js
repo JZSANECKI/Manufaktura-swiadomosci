@@ -19,7 +19,7 @@ quotes.style.filter = "blur(" + (1/(wysokosc / (50* value))) +"px)"
   if (navWys < 3) {
     navbar.style.background = 'rgba(255,255,255,0.9)';
     
-    navbar.classList.add("shadow");
+    // navbar.classList.add("shadow");
     navlinkA[0].style.color = 'black';
     navlinkA[0].onmouseover = function(){navlinkA[0].style.color = 'gray'};
     navlinkA[0].onmouseout = function(){navlinkA[0].style.color = 'black'};
@@ -44,7 +44,7 @@ quotes.style.filter = "blur(" + (1/(wysokosc / (50* value))) +"px)"
     console.log('ciemny nav');
   } else {
     navbar.style.background = 'rgba(255,255,255,0.2)';
-    navbar.classList.remove("shadow");
+    // navbar.classList.remove("shadow");
     
     navbarNavAltMarkup.style.backgroundColor = 'rbga(0.0.0.0.8)';
     navlinkA[0].style.color = 'white';
