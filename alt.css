@@ -102,7 +102,7 @@ text-align: justify;
 .portret {
 
   max-width: 80%;
-position: absolute;
+/* position: absolute; */
 right: 0;
   /* max-height: 70vh; */
   display: block;
