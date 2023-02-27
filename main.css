@@ -15,7 +15,7 @@ body {
   transition: all 300ms;
 }
 .social:hover{
-color: coral;
+  color: rgb(31, 97, 141);
 
 }
 a{
