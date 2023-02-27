@@ -102,7 +102,8 @@ text-align: justify;
 .portret {
 
   max-width: 80%;
-
+position: absolute;
+right: 0;
   /* max-height: 70vh; */
   display: block;
  
@@ -346,8 +347,7 @@ top: 40%;
   .container {
   }
   .portret {
-    padding-right: 0px;
-    padding-bottom: 20px;
+ display: none;
   }
   
 
