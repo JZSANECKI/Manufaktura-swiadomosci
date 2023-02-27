@@ -109,6 +109,16 @@ right: 0;
  
 
 }
+.portret-sm{
+display: none;  
+margin-bottom: 1rem;
+}
+.portret-sm h2{
+  color: white;
+}
+.portret-sm h5{
+  color: white;
+}
 .name-sm{
 position: absolute;
 left: 0;
@@ -355,7 +365,12 @@ top: 40%;
   .portret {
  display: none;
   }
-  
+  .portret-sm{
+    display: block;  
+    }
+  .name-md{
+    display: none;
+  }
 
 }
 
