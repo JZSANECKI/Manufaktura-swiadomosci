@@ -109,6 +109,12 @@ right: 0;
  
 
 }
+.name-sm{
+position: absolute;
+left: 0;
+bottom: 0;
+
+}
 .contact {
   position: relative;
   min-height: 40vh;
