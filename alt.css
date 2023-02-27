@@ -100,11 +100,12 @@ text-align: justify;
   border-color: rgb(31, 97, 141);
 }
 .portret {
+
   max-width: 80%;
- 
+
   /* max-height: 70vh; */
   display: block;
-  margin: auto;
+ 
 
 }
 .contact {
