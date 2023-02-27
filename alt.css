@@ -17,6 +17,7 @@ body {
   margin: 0;
   font-family: system-ui, sans-serif;
 }
+
 h1{
   color: rgb(31, 97, 141);
   font-size: 7vw;
@@ -379,5 +380,6 @@ top: 40%;
     border-right:hidden;
     
   }
+
 
 }
