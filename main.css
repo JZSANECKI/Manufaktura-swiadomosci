@@ -25,6 +25,9 @@ h2 {
   color: rgb(31, 97, 141);
   font-size: 4em;
 }
+h4{
+  color:white;
+}
 h5 {
   color: rgb(31, 97, 141);
 }
@@ -117,11 +120,11 @@ text-align: justify;
 }
 .contact {
   position: relative;
-  min-height: 40vh;
+  /* min-height: 40vh; */
    background-image: url(//unsplash.it/2000/600);
   background-size: cover;
   align-items: center;
-  justify-content: center;
+
   z-index: 0;
 }
 .contact h5 {
