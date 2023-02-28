@@ -1,8 +1,8 @@
-# Manufaktura-swiadomosci
+<h1># Manufaktura-swiadomosci // work in progres corporate site</h1>
 
 demo here https://jzsanecki.github.io/Manufaktura-swiadomosci/
 
-work in progres corporate site
+
 <h2>Layout</h2><br>
 
 ![image](https://user-images.githubusercontent.com/115653252/221800488-32fe7ed0-e660-4155-814f-1afcfea4548c.png)
