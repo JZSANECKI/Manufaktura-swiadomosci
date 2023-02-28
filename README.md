@@ -2,6 +2,20 @@
 
 demo here https://jzsanecki.github.io/Manufaktura-swiadomosci/
 
+The site is designed to showcase the group's self-development workshop activities.
+Main sections:
+
+- description of activities
+- presentation of the team
+- list of workshops
+- calendar of upcoming workshops
+
+Next steps:
+
+- database connection in(PHP MSQL)
+- reservation and purchase of workshops
+- launching online payment
+- launching newsletters and email notifications
 
 <h2>Layout</h2><br>
 
