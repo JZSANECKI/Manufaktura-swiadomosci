@@ -31,5 +31,10 @@ https://user-images.githubusercontent.com/115653252/221800575-70b3823a-0c09-4925
 ![image](https://user-images.githubusercontent.com/115653252/221802656-65fa7a08-79d7-4a65-956b-e64079900ccc.png)
 
 
+<h2>Responsive "About Us"</h2><br>
+
+
+![image](https://user-images.githubusercontent.com/115653252/221809659-c828eda6-be6d-41f2-b660-65058d4bc7be.png)
+
 
 
