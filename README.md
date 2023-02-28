@@ -12,5 +12,10 @@ demo here https://jzsanecki.github.io/Manufaktura-swiadomosci/
 https://user-images.githubusercontent.com/115653252/221800575-70b3823a-0c09-4925-a4a8-d0ba874b8cab.mp4
 
 
+<h2>Calendar section</h2><br>
+
+![image](https://user-images.githubusercontent.com/115653252/221802656-65fa7a08-79d7-4a65-956b-e64079900ccc.png)
+
+
 
 
